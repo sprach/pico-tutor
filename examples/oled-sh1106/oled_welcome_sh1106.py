@@ -10,7 +10,8 @@ oled = SH1106_I2C(128, 64, i2c)
 
 led.on()
 
-oled.rotate(True)
+# 화면 위, 아래 뒤집기
+# oled.rotate(True)
 
 c = 128
 oled.line(0, 0, 0, 63, c)
