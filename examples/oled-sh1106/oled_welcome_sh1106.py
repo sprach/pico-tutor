@@ -1,25 +1,30 @@
-#https://www.tomshardware.com/how-to/oled-display-raspberry-pi-pico
 from machine import Pin, I2C
 from sh1106 import SH1106_I2C
 
 led = Pin(25, Pin.OUT)
 
-i2c = I2C(0, sda=Pin(8), scl=Pin(9), freq=400000)
 #i2c = I2C(0)
-oled = SH1106_I2C(128, 64, i2c)
+i2c = I2C(0, sda=Pin(8), scl=Pin(9), freq=400000)
+
+x = 128   # 너비
+y = 64    # 높이
+oled = SH1106_I2C(x, y, i2c)
 
 led.on()
 
 # 화면 위, 아래 뒤집기
 # oled.rotate(True)
 
-c = 128
-oled.line(0, 0, 0, 63, c)
-oled.line(0, 63, 127, 63, c)
-oled.line(127, 63, 127, 0, c)
-oled.line(127, 0, 0, 0, c)
+# 바깥 사각형 그리기
+c = 128    # 표시할 컬러 색상
+oled.line(0, 0, 0, y - 1, c)
+oled.line(0, y - 1, x - 1, y - 1, c)
+oled.line(x - 1, y - 1, x - 1, 0, c)
+oled.line(x - 1, 0, 0, 0, c)
 
-oled.text("Welcome to", 4, 4);
-oled.text("my world!", 10, 20);
+# 환영 문구 표시
+oled.text("Welcome to", 4, 4)
+oled.text("my world!", 10, 20)
 
+# 표시
 oled.show()
