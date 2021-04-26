@@ -40,8 +40,8 @@
 
 3. Driver files
    * dht.py : 온습도
-   * lcd_api.py : LCD (Base)
-   * pico_i2c_lcd.py: LCD. esp8266 변형
+   * lcd_api.py : LCD (Base, esp8266 변형)
+   * pico_i2c_lcd.py: LCD
    * hydro_sensors.py: 센서 처리 모음. 온습도, 부저, 수위
 
 4. 실행 파일: hydroponics.py
