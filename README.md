@@ -11,10 +11,18 @@
 
 ## Examples
 
-### OLED
-1. Driver: /lib/sh1106.py
-2. 예제 파일
-   1. oled_raspipico_logo_sh1106.y
-      * 라즈베리파이 로고와 Pico 글자 표시
+1. led (내장)
+   1. blink_loop.py
+   2. blink_callback.py
+
+2. oled (sh1106)
+   1. oled_raspipico_logo_sh1106.py
    2. oled_welcome_sh1106.py
-      * Welcome 메시지 표시
+
+3. lcd
+   1. lcd_i2c_test.py
+
+## Kits
+
+1. Hydroponics-1
+   * 아두이노용 수경재배키트를 Pico용으로 변환
