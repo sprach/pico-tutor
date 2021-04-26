@@ -5,10 +5,10 @@
 
    PICO | OLED
    -----|-----
-   Vcc | 3.3v OUT
+   3.3v OUT | Vcc
    GND | GND
-   SCL | I2C0 SCL (GP9)
-   SDA | I2C0 SDA (GP8)
+   I2C0 SCL (GP9) | SCL 
+   I2C0 SDA (GP8) | SDA
 
 2. Driver file
    * /lib/sh1106.py
