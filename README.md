@@ -1,5 +1,10 @@
 # Raspberry Pi Pico tutorial
 
+## Datasheet
+[Download Raspberry Pi Pico datasheet (공식)](https://datasheets.raspberrypi.org/pico/pico-datasheet.pdf)
+
+![Pico pinout](images/pico-pinout.jpg)
+
 ## lib files
 * 예제에 필요한 드라이버나 패키지는 /lib 디렉토리에 알맞는 파일을 복사해 넣어야 한다.
   * 예시: examples/oled-sh1106 의 예제를 Pico 폴더에 복사해 넣을 때의 디렉토리와 파일 구조
