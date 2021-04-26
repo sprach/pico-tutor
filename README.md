@@ -1,4 +1,4 @@
-# Raspberry Pi Pico tutorial
+# Raspberry Pi Pico tutorials
 
 ## Datasheet
 [Raspberry Pi Pico datasheet (PDF)](https://datasheets.raspberrypi.org/pico/pico-datasheet.pdf)
