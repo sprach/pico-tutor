@@ -1,7 +1,7 @@
 # Raspberry Pi Pico tutorial
 
 ## Datasheet
-[Download Raspberry Pi Pico datasheet (공식)](https://datasheets.raspberrypi.org/pico/pico-datasheet.pdf)
+[Raspberry Pi Pico datasheet (PDF)](https://datasheets.raspberrypi.org/pico/pico-datasheet.pdf)
 
 ![Pico pinout](images/pico-pinout.jpg)
 
