@@ -3,7 +3,7 @@
 ## Datasheet
 [Raspberry Pi Pico datasheet (PDF)](https://datasheets.raspberrypi.org/pico/pico-datasheet.pdf)
 
-![Pico pinout](images/pico-pinout.jpg)
+![Pico pinout](docs/images/pico-pinout.jpg)
 
 ## lib files
 * 예제에 필요한 드라이버나 패키지는 /lib 디렉토리에 알맞는 파일을 복사해 넣어야 한다.
