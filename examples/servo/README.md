@@ -8,6 +8,9 @@ VBUS | 적색 | 5V
 GND | 갈색 | GND
 GP15 | 주황색 | Data
 
+## Fritzing
+![Pico_Fritzing](../../docs/images/servo/pico-servo_fritzing.jpg)
+
 ## Datasheet
 ![Pico pinout](../../docs/datasheets/microservo-sg90_datasheet.jpg)
 
